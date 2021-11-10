@@ -39,5 +39,21 @@ body{
     opacity: 0.8;
     width: 80%;
     height: 15%;
-    margin: 20px auto 0;
+    margin: 20px auto 0; 
+}
+
+.icon{
+    margin: 20px 0 0 20px;
+    width: 15%;
+    
+}
+
+.valor-plano{
+    
+    width: 35%;  
+}
+
+.alterar-plano{
+    
+    width: 30%;
 }
