@@ -1,0 +1,43 @@
+html{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo-principal{
+    width: 400px;
+    height: 600px;
+    margin: 200px auto 0;
+    border: solid 2px #000000;
+    border-radius: 25px;
+    
+}
+
+.icon-hero{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.descricao{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.descricao p{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(169, 169, 250);
+    font-size: 16px;
+}
+
+.plano-venda{
+    border-radius: 15px;
+    background-color: hsl(224, 71%, 96%);
+    opacity: 0.8;
+    width: 80%;
+    height: 15%;
+    margin: 20px auto 0;
+}
