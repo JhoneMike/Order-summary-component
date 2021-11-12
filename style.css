@@ -1,18 +1,22 @@
 html{
-    max-width: 100%;
+    margin: 0;
 }
 
 body{
     margin: 0;
     padding: 0;
+    background: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 98%);
 }
 
 .conteudo-principal{
     width: 400px;
     height: 600px;
-    margin: 200px auto 0;
-    /* border: solid 2px #000000; */
+    margin: 150px auto 0; 
     border-radius: 25px;
+    background: white;
 }
 
 .icon-hero{
@@ -64,4 +68,38 @@ body{
 .alterar-plano p{
     font-weight: bold;
     color: blue;
+}
+
+#btn-proceed{
+    display: block;
+    margin: 30px auto 15px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 7%;
+    background-color: rgb(53, 11, 238);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-proceed:hover{
+    background: rgb(82, 64, 240);
+}
+
+#btn-cancel{
+    display: block;
+    margin: 10px auto 10px; 
+    width: 80%;
+    height: 7%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;   
+    cursor: pointer; 
+}
+
+#btn-cancel:hover{
+    color: black;
 }
