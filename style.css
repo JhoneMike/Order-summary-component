@@ -11,9 +11,8 @@ body{
     width: 400px;
     height: 600px;
     margin: 200px auto 0;
-    border: solid 2px #000000;
+    /* border: solid 2px #000000; */
     border-radius: 25px;
-    
 }
 
 .icon-hero{
@@ -35,25 +34,34 @@ body{
 
 .plano-venda{
     border-radius: 15px;
+    display: inline-flex;
     background-color: hsl(224, 71%, 96%);
     opacity: 0.8;
     width: 80%;
     height: 15%;
-    margin: 20px auto 0; 
-}
-
-.icon{
-    margin: 20px 0 0 20px;
-    width: 15%;
-    
+    margin: 20px 0 0 40px;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center; 
 }
 
 .valor-plano{
-    
     width: 35%;  
+    height: 85%;
+    padding-right: 30px;
 }
 
-.alterar-plano{
-    
-    width: 30%;
+.valor-plano h3{
+    height: 10%;
+}
+
+.valor-plano p{
+    height: 10%;
+}
+
+.alterar-plano p{
+    font-weight: bold;
+    color: blue;
 }
